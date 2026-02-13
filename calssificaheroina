@@ -1,0 +1,38 @@
+// Classificação de Nível de Heroína - Lógica de Programação DIO - Blip
+
+// Variáveis
+let nomeHeroina = "Joaninha Atômica"
+let xpHeroi = 5000
+
+//Estrutura da Condicional
+if (xpHeroi <= 1000) {
+  console.log("A Heroína de nome " + nomeHeroina + " está no nível de Ferro")
+}
+
+else if (xpHeroi <= 2000) {
+  console.log("A Heroína de nome " + nomeHeroina + " está no nível de Bronze")
+}
+
+else if (xpHeroi <= 5000) {
+  console.log("A Heroína de nome " + nomeHeroina + " está no nível de Prata")
+}
+
+else if (xpHeroi <= 7000) {
+  console.log("A Heróina de nome " + nomeHeroina + " está no nível de Ouro")
+}
+
+else if (xpHeroi <= 8000) {
+  console.log("A Heroína de nome " + nomeHeroina + " esta no nível de Platina")
+}
+
+else if (xpHeroi <= 9000) {
+  console.log("A Heroína de nome " + nomeHeroina + " está no nível de Ascendente")
+}
+
+else if (xpHeroi <= 10000) {
+  console.log("A Heróina de nome " + nomeHeroina + " está no nível de Imortal")
+}
+
+else if (xpHeroi >= 10001) {
+  console.log("A Heroína de nome " + nomeHeroina + " está no nível de Radiante")
+}
